@@ -1,0 +1,57 @@
+#banner{
+    width: 100%;
+    min-height: 100vh;
+    max-height: 100vh;
+    padding-top: 0;
+    background-image: url(../../assets/background_table.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: center;
+    justify-content: space-around;
+
+
+    h1{
+        margin: 2rem 0;
+        color: #e9af10;
+
+    }
+
+    .foto-edu-div{
+        text-align: center;
+        align-items: center;
+    }
+    .foto-edu{
+        position: relative;
+        width: 20em;
+        height: 20em;
+        border: 3px solid #e9af10 ;
+        border-radius: 7px;
+    }
+}
+
+@media (max-width: 400px){
+
+    .foto-edu{
+        width: 13m;
+    }
+
+}
+
+
+h2{
+    color: white;
+}
+
+.banner-text {
+    color: white;
+    font-size: 19px;
+    margin: 10px 0 0 20px;
+    padding-left: 10px;
+    text-shadow: 5px 5px 5px #222;
+    text-align: left;
+    width: 80%;
+}

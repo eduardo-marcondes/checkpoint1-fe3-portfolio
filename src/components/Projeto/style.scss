@@ -1,0 +1,43 @@
+#projetos {
+    margin: 60px 0 ;
+    width: 100%;
+    min-height: 100vh;
+  
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 18px;
+      text-align: center;
+      align-items: center;
+      padding-left: 30px;
+      
+     }
+    .card{
+      width: 90%;
+      height: 100%;
+
+      .card-title{
+        text-align: left;
+      }
+
+      .card-text{
+        color: black;
+        text-align: left;
+        font-size: 16px;
+        a:link{
+          color: blue;
+          font-size: 16px; 
+          text-decoration: none;         
+        }
+        
+      }
+
+      .card-link{
+        text-align: left;
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+  }
+
+}
